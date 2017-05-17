@@ -29,7 +29,7 @@
 * JavaScript
 
 ### Github Pages link
-[Order Pizza](https://danitlls.github.io/order-pizza/)
+[Order Pizza](https://danitlls.github.io/orderpizza-2/)
 
 
 ## License
