@@ -1,0 +1,78 @@
+p{
+  font-size: 20px;
+}
+#make{
+  color: white;
+  background-color: #c60d1b;
+}
+#result{
+  font-size: 20px;
+  color: white;
+  background-color:  #32485f;
+  border-radius: 8px;
+  padding: 3px 8px;
+  display:none;
+  margin-bottom: 20px;
+}
+#makeNew{
+  display: none;
+}
+
+#checkOut{
+  display: none;
+  color: white;
+  background-color: #c60d1b;
+}
+
+#pickUp{
+  display: none;
+}
+
+#delivery{
+  display: none;
+}
+
+#showPickUp{
+  margin: 5px 5%;
+  display: none;
+  color:white;
+  text-align: center;
+  font-size: 40px;
+  background-image: url("https://cdn0.vox-cdn.com/thumbor/erX6yYX-xAEUgee7gCMOhb9hvwQ=/71x0:1208x853/1200x900/filters:focal(71x0:1208x853)/cdn0.vox-cdn.com/uploads/chorus_image/image/38681510/SizzlePie-3.0.jpg");
+  border-radius: 8px;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+
+#showDelivery{
+  display: none;
+}
+
+#deliver{
+  margin: 5px 15%;
+  display: none;
+  padding-top: 20px;
+  background-image: url("https://ak8.picdn.net/shutterstock/videos/15983017/thumb/1.jpg");
+  border-radius: 8px;
+  min-height: 460px;
+  font-size: 40px;
+  background-repeat: no-repeat;
+}
+.btn{
+  margin: 10px;
+  color: #c60d1b;
+  font-size: 20px;
+}
+.container {
+  margin-left: 50px;
+  /*font-family: 'Bad Script', cursive;*/
+}
+.header{
+  background-color: #c82518;
+  color: white;
+  margin-top: 0;
+  padding: 30px;
+  font-family: 'Bungee Shade', cursive;
+  margin-bottom: 40px;
+}

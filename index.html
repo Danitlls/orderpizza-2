@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Play" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Order Pizza</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Pizza and Pizza</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <form id="chooseForm">
+          <h2>Make your own pizza:</h2>
+          <div id="flavor" class="form-group">
+            <p>Choose the toppins</p>
+            <input type="checkbox" name="toppins" value="cheese">Cheese<br>
+            <input type="checkbox" name="toppins" value="tomato">Tomato sause<br>
+            <input type="checkbox" name="toppins" value="pepperoni">Pepperoni<br>
+            <input type="checkbox" name="toppins" value="onions">Onions<br>
+            <input type="checkbox" name="toppins" value="mushrooms">Mushrooms<br>
+            <input type="checkbox" name="toppins" value="chicken">Chicken<br>
+          </div>
+
+          <div class="form-group">
+            <p>Choose size</p>
+            <input type="radio" name="size" value=1>Small<br>
+            <input type="radio" name="size" value=3>Medium<br>
+            <input type="radio" name="size" value="6">Big<br>
+          </div>
+          <button id="make" class="btn" type="submit">Make this pizza!</button>
+        </form>
+      </div>
+      <ul class="pizzaDetails">
+      </ul>
+
+      <div id="result"></div>   <!-- show the price -->
+      <div class="row">
+        <button id="makeNew"  class="btn" type="button">Add another pizza!</button>
+        <button id="checkOut"  class="btn" type="button">Checkout!</button>
+      </div>
+      <div class="row">
+        <button id="pickUp" class="btn" type="button">Self pick up</button>
+        <button id="delivery" type="button" class="btn">Delivery</button>
+      </div>
+      <div id="showPickUp" class="row">
+        <p>Your order will be ready for you to pick up at our store in 20 minutes</p>
+        <p>Address: 624 E Burnside St, Portland, OR 97214 </p>
+        <div class="order"></div>
+      </div>
+      <div id="showDelivery" class="row">
+        <form id="new-address">
+          <p>Where should we deliver your order?</p>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div id="addresses">
+            <div class="form-group">
+              <label for="new-street">address</label>
+              <input id="new-street" type="text" class="form-control new-street" required>
+            </div>
+          </div>
+          <button type="submit" class="btn">Send it to me!</button>
+        </form>
+      </div>
+      <div id="deliver" class="row">
+        <p>Your order will be deliver to you in 35 minutes</p>
+      
+      </div>
+    </div>
+  </body>
+</html>
